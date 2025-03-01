@@ -18,6 +18,3 @@ output_files
 # ghdl analyses
 *.cf
 *.o
-
-hardware/tb/mase_cocotb
-hardware/tb/mods
