@@ -1,0 +1,23 @@
+*/tb/sim_build/
+*/tb/sim_build.*
+*__pycache__
+.vscode
+*/tb/*/waves/
+hardware/rtl/tlc_plus/old
+
+# Quartus Prime project files
+db
+incremental_db
+output_files
+*.bak
+*.qpf
+*.qsf
+*.qws
+*pin_model_dump.txt
+
+# ghdl analyses
+*.cf
+*.o
+
+hardware/tb/mase_cocotb
+hardware/tb/mods
