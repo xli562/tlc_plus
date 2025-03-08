@@ -6,7 +6,7 @@ entity tlc_plus is
     generic (
         BCD_WIDTH : natural := 4;
         CLK_WIDTH : natural := 27;
-        CLK_FREQ  : natural := 50--000000
+        CLK_FREQ  : natural := 50000000
     );
     port (
         clk_i   : in  std_logic;

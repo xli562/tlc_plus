@@ -12,8 +12,10 @@ entity counter is
     port (
         clk_i        : in  std_logic;
         rstn_i       : in  std_logic;
+
         load_i       : in  std_logic;
         enable_i     : in  std_logic;
+        
         start_time_i : in  unsigned (WIDTH-1 downto 0);
         count_o      : out unsigned (WIDTH-1 downto 0);
         rollover_o   : out std_logic
